@@ -1,3 +1,11 @@
+:root {
+    --color1: #D9C6B0;
+}
+
+p{
+    color: var(--color1);
+}
+
 .listMenu {
     list-style-type: none;
 }
