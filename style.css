@@ -9,6 +9,7 @@ body{
     background-color: var(--color3);
 }
 
+
 .pList{
     color: var(--color1);
     font-family: Verdana, Geneva, Tahoma, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,6 +31,7 @@ body{
 }
 
 .listMenu li {
+    width: fit-content;
     display: flex;
     border-radius: 50px;   
 }
@@ -97,7 +99,7 @@ body{
 .profileDiv{
     margin-top: 103px;
     margin-left: 45px;
-    
+    width: fit-content;
 }
 
 .listMenuDiv02 li{
@@ -118,7 +120,6 @@ body{
 .headerDiv02{
     border: var(--color1);
     border-style: solid;
-    border-radius: 40px;
     border-width: 1px;
     height: 80px;
 }
