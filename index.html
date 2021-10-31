@@ -14,11 +14,15 @@
 
 <body>
     <div class="principal row">
-        <div class="div1 col">
-            <span class="material-icons iconTwitter"> get_app </span>
+        <div class="div1 col-3">
             <ul class="listMenu align-items-center">
                 <li>
-                    <span class="material-icons"> home </span>
+                    <span class="material-icons">
+                        <img src="images/logo.png" class="iconTwitter">
+                    </span>
+                </li>
+                <li>
+                    <span class="material-icons" t> home </span>
                     <p class="pList"> Home </p>
                 </li>
                 <li>
@@ -68,21 +72,66 @@
                     </li>
                 </ul>
             </div>
-
         </div>
-        <div class="div1  col-5">
-            <div class="headerDiv02">
-                <ul class="listMenuDiv02"> 
+        <div class="div2  col-5">
+            <div class="headerDiv2">
+                <div class="headerDiv2Pt1">
+                    <ul class="listaDiv2">
+                        <li>
+                            <p class="pHome"> Home </p>
+                        </li>
+                        <li>
+                            <span class="material-icons iconLista"> auto_awesome </span>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="listaDiv3">
                     <li>
-                        <p class="pList pHome"> Home </p>
-                        <span class="material-icons starsAwesome"> auto_awesome </span>
+                        <span class="material-icons iconLista23"> account_circle </span>
+                    </li>
+                    <li>
+                        <p class="pHappen"> What's Happening? </p>
+                    </li>
+                </ul>
+                <ul class="listaDiv2Icons">
+                    <li>
+                        <span class="material-icons iconLista2"> image </span>
+                    </li>
+                    <li>
+                        <span class="material-icons iconLista2"> gif </span>
+                    </li>
+                    <li>
+                        <span class=" material-icons"> poll </span>
+                    </li>
+                    <li>
+                        <span class="material-icons"> mood </span>
+                    </li>
+                    <li>
+                        <span class="material-icons"> pending_actions </span>
+                    </li>
+                    <li>
+                        <button class="text-white bg-dark btnTweet"> Tweet </button>
                     </li>
                 </ul>
             </div>
+            <div>
+                <h1 class="welcome"> Welcome to Twitter!</h1>
+                <p class="bestPlace"> This is the best place to see what’s happening in your world.
+                    Find some people and topics to follow now.</p>
+                <button class="text-white bg-dark letsGo"> Let's Go! </button>
+            </div>
         </div>
-        <div class="div1 col-4">
-            <h3> DIV 3 </h3>
+        <div class="div3 col-4">
+            <nav class="navbar searchNav">
+                <div class="container-fluid">
+                  <form class="d-flex">
+                    <input class="form-control me-2 searchC" type="search" placeholder="Search On Twitter" aria-label="Search">
+                    <button class="btn btn-outline-success btnSearch" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
         </div>
+    </div>
     </div>
 
     <footer>
