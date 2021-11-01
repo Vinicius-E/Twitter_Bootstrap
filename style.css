@@ -3,10 +3,34 @@
     --color2: #1D9BF0;
     --color3: #000000;
     --color4: #121212;
+    --color5: #6E767D;
+    --color6: #15181C;
+    --color7: #D9D9D9;
 }
 
 body{
     background-color: var(--color3);
+}
+
+p{
+    color: var(--color5);
+    font-size: 14px;
+}
+
+h4{
+    color: var(--color7);
+}
+
+h5{
+    color: var(--color2);
+    font-size: 18px;
+    margin-left: 8%;
+    padding-bottom: 10px;
+}
+
+h6{
+    color: var(--color5);
+    font-size: 14px;
 }
 
 .pList{
@@ -32,6 +56,7 @@ body{
 .listMenu li {
     display: flex;
     border-radius: 50px;   
+    padding-top: 7px;
 }
 
 .listMenu span {
@@ -60,9 +85,15 @@ body{
 }
 
 .div1{
-    border: var(--color1);
-    border-style: solid;
-    border-width: 1px;
+    border: var(--color2);
+    border-style: groove;
+    border-width: 0.1ch;
+}
+
+.div2{
+    border: var(--color2);
+    border-style: groove;
+    border-width: 0.1ch;
 }
 
 .btnTwitter {
@@ -77,12 +108,7 @@ body{
 
 
 .iconTwitter {
-    padding: 30px 0px 30px 95px;
-}
-
-
-.iconProfile{
-    margin-left: 30px;
+    width:15%;
 }
 
 .material-icons{
@@ -95,7 +121,7 @@ body{
 }
 
 .profileDiv{
-    margin-top: 103px;
+    margin-top: 83px;
     margin-left: 45px;
     
 }
@@ -112,13 +138,183 @@ body{
 }
 
 .pHome{
-    margin-top: 5px;
+    color: var(--color7);
+    font-family: Verdana, Geneva, Tahoma, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
 }
 
-.headerDiv02{
-    border: var(--color1);
-    border-style: solid;
+.pHappen{
+    color: var(--color5);
+    font-family: Verdana, Geneva, Tahoma, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.headerDiv2Pt1{
+    width: 40.4%;
+    height: 60px;
+    border: var(--color2);
+    border-style:  double;
+    position: fixed;
+    z-index: 100;
+    background-color: var(--color3);
+}
+
+.listaDiv3{
+    list-style-type: none;
+    height: 60px;
+    margin-top: 50px;
+}
+
+.listaDiv3 li{ 
+    padding-top: 15px;   
+    float: left;
+}
+
+.iconLista23{
+    margin-right: 30px;
+}
+
+.listaDiv2{
+    list-style-type: none; 
+    margin-top: 10px;  
+}
+
+.listaDiv2 li{
+    display: flex;   
+    float: left;
+}
+
+.iconLista{
+    margin-left: 400px;
+}
+
+.listaDiv2Icons{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.listaDiv2Icons li{
+    margin-left: 30px;
+}
+
+.btnTweet {
+        width: 115px;
+        height: 35px;
+        border-radius: 40px;
+        border-color: var(--color2);
+        border-style: groove;
+        margin-left: 65px;
+        margin-bottom: 5px;
+}
+
+.headerDiv2{
+    border: var(--color2);
+    border-style:  groove;
+}
+
+.welcome{
+    margin-top: 5%;
+    text-align: center;
+    color: var(--color7);
+}
+
+.bestPlace{
+    text-align: center;
+    width: 500px;
+    margin-left: 6%;
+    color: var(--color5);
+}
+
+.letsGo{
+    width: 100px;
+    height: 50px;
     border-radius: 40px;
-    border-width: 1px;
-    height: 80px;
+    border-color: var(--color2);
+    border-style: groove;
+    margin-left: 65px;
+    margin-bottom: 5px;
+}
+
+.searchC{
+    background-color: var(--color3);
+    border-radius: 20px;
+    border-color: var(--color2);
+    width: 275px;
+}
+
+.searchNav{
+    position: fixed;
+    z-index: 100;
+    margin-left: 1%;
+    background-color: var(--color3);
+}
+
+.btnSearch{
+    border-radius: 10px;
+    border-color: var(--color2);
+    color: var(--color2);
+}
+
+.div3{
+    border: var(--color2);
+    border-style: groove;
+    border-width: 0.1ch;
+}
+
+.div302{
+    background-color: var(--color6);
+    width: 80%;
+    margin-top: 15%;
+    margin-left: 7%;
+    border-radius: 50px;
+}
+
+.lista111 {
+    list-style-type: none;
+    display: inline-flexbox;
+    width: 65%;
+}
+
+.listaDiv3Post{
+    list-style-type: none;
+    padding-left: 2px;
+}
+
+.pPost{
+    color: var(--color7);
+}
+
+.l2 li{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.more{
+    color: var(--color5);
+    margin-left: 80px;
+}
+
+.more1{
+    color: var(--color5);
+    margin-left: 180px;
+}
+
+.listaFoot{
+    margin-top: 10%;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.listaFoot li{
+    margin-right: 50px;
+}
+
+.listaFoot2{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.listaFoot2 li{
+    margin-right: 50px;
+    margin-left: 15px;
 }
