@@ -69,6 +69,7 @@ h6{
 
 .listMenuProfile{
     list-style-type: none;
+
 }
 
 .listMenuProfile :hover{
@@ -96,6 +97,14 @@ h6{
     border-width: 0.1ch;
 }
 
+.liProfile {
+    width: 75%;
+}
+
+.iconProfile {
+    margin-left: 5%;
+}
+
 .btnTwitter {
     width: 226px;
     height: 52px;
@@ -121,9 +130,8 @@ h6{
 }
 
 .profileDiv{
-    margin-top: 83px;
-    margin-left: 45px;
-    
+    margin-top: 19%;
+    margin-left: 5%;
 }
 
 .listMenuDiv02 li{
@@ -162,7 +170,7 @@ h6{
 .listaDiv3{
     list-style-type: none;
     height: 60px;
-    margin-top: 50px;
+    margin-top: 12%;
 }
 
 .listaDiv3 li{ 
@@ -177,6 +185,7 @@ h6{
 .listaDiv2{
     list-style-type: none; 
     margin-top: 10px;  
+    margin-left: 5%;
 }
 
 .listaDiv2 li{
@@ -300,21 +309,23 @@ h6{
 }
 
 .listaFoot{
-    margin-top: 10%;
+
+    margin-left: 5%;
+    margin-top: 20%;
     list-style-type: none;
     display: inline-flex;
 }
 
 .listaFoot li{
-    margin-right: 50px;
+    margin-right: 25px;
 }
 
 .listaFoot2{
+    margin-left: 6%;
     list-style-type: none;
     display: inline-flex;
 }
 
 .listaFoot2 li{
-    margin-right: 50px;
-    margin-left: 15px;
+    margin-right: 65px;
 }
